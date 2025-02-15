@@ -1,0 +1,12 @@
+.firstgroup{
+    color: green;
+}
+#ar{
+    color: red;
+    background-color: green;
+}
+
+th{
+    text-align: center;
+   border: 1px solid black;
+}
