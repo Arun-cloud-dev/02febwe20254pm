@@ -1,0 +1,105 @@
+/* h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.a1{
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+#red{
+ background-color: yellow ;
+
+} */
+
+
+/* 
+h1, h2, p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+/* *{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
+/* 
+Selector	Matches
+[attr]	Elements with the attribute
+[attr="val"]	Elements with exact attribute value
+[attr^="val"]	Attribute value starts with specific text
+[attr$="val"]	Attribute value ends with specific text
+[attr*="val"]	Attribute value contains specific text */
+
+/* 
+button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    padding: 50px;
+    border-radius: 50px;
+} */
+
+
+
+/* 
+input:focus {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+} */
+
+
+
+
+/* a:active{
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+} */
+
+
+/* 
+
+
+
+li:nth-child(){
+    background-color: yellow;
+}
+
+li:nth-child(even){
+    background-color: green;
+}   
+ */
+
+
+
+
+/* 
+ Pseudo-Class	Description
+:hover	When mouse hovers over an element
+:focus	When an element gains focus
+:active	While an element is being clicked
+:nth-child(n)	Selects the nth child of a parent
+:first-child	Selects the first child
+:last-child	Selects the last child
+:checked	Selects checked input elements
+:disabled	Selects disabled form elements
+:empty	Selects elements with no children */
