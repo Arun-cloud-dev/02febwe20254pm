@@ -21,7 +21,16 @@
     width: 600px;
     padding: 20px;
     border: 6px solid black;
-    
-    background-color: aquamarine;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 15%, rgba(95, 90, 227, 1) 27%, rgba(112, 88, 214, 1) 35%, rgba(155, 82, 181, 1) 44%, rgba(177, 79, 165, 1) 56%, rgba(190, 77, 155, 1) 71%, rgba(196, 76, 150, 1) 74%, rgba(209, 75, 140, 1) 80%, rgba(213, 75, 137, 1) 82%, rgba(222, 74, 130, 1) 86%, rgba(252, 70, 107, 1) 100%);
+}
 
+
+
+.ar{
+    background-color: #f0f0f0;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
 }
