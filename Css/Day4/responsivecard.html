@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Responsive Card Layout</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping on small screens */
+            gap: 20px; /* Space between items */
+            padding: 20px;
+        }
+
+        .card {
+            flex: 1 1 calc(33.33% - 40px); /* Responsive width */
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(50% - 40px); /* 2 columns on tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%; /* Full width on small screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Responsive Flexbox Card Layout</h2>
+
+    <div class="container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+    </div>
+
+</body>
+
+</html>
