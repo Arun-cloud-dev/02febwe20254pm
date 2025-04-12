@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>\callback</title>
+</head>
+<body>
+    <button onclick="handleClick()">click me</button>
+    <p id="output" ></p>
+    <script>
+        function displayMessage(message) {
+            document.getElementById("output").innerText = "hello"+ name + "!"  ;
+        }
+        function handleClick() {
+            var name = prompt("Enter your name:");
+            if (name) {
+                displayMessage(name);
+            } else {
+                alert("Please enter a valid name.");
+            }
+        }
+    </script>
+</body>
+</html>
