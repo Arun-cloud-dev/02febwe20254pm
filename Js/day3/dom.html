@@ -6,14 +6,56 @@
     <title>DOM</title>
 </head>
 <body>
-    <h1 id="mail-title">hello dom is the example that e will se today </h1>
+    <!-- <h1 id="mail-title">hello dom is the example that e will se today </h1>
 
 
     <h1 class="title">Hello World</h1>
     <p id="desc">This is a description.</p>
     <button id="changeBtn">Change Text</button>
 
-<script src="./dom.js"></script>
+
+
+    <div id="container">
+        <h2>my List</h2>
+        <ul id="myList"></ul>
+
+    </div>
+    <input type="text" id="itemInput" placeholder="Enter item">
+
+    <button id="addItem">Add Item Btn</button> -->
+
+
+
+
+    <div id="container">
+        <h2>My list </h2>
+        <ul id="myList">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+
+
+    <button id="removeItem">Remove First Item</button>
+
+<button onclick="alert('Button is clicked using an inline event !')">click me for inline example </button>
+
+
+
+    <script>
+        const list = document.getElementById('myList');
+        const removeButton = document.getElementById('removeItem');
+
+removeButton.addEventListener('click', () => {
+    if (list.firstChild){
+        list.removeChild(list.firstChild)
+    };
+})
+
+    </script>
+
+<!-- <script src="./dom.js"></script> -->
 
 </body>
 </html>
