@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Cart</title>
+</head>
+
+<body>
+    <button onclick="addToCart('T-shirt')">Add T-shirt</button>
+    <button onclick="addToCart('Shoes')">Add Shoes</button>
+    <h3>Cart:</h3>
+    <ul id="cartList"></ul>
+
+    <script>
+        const cartList = document.getElementById("cartList");
+
+        function loadCart() {
+            const cart = JSON.parse(localStorage.getItem("cart")) || [];
+            cartList.innerHTML = "";
+            cart.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = item;
+                cartList.appendChild(li);
+            });
+        }
+
+        function addToCart(item) {
+            const cart = JSON.parse(localStorage.getItem("cart")) || [];
+            cart.push(item);
+            localStorage.setItem("cart", JSON.stringify(cart));
+            loadCart();
+        }
+
+        loadCart();
+    </script>
+</body>
+
+</html>
