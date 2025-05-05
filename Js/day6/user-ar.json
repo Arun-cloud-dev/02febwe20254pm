@@ -1,0 +1,13 @@
+[
+  { "name": "Ahmed", "country": "Egypt" , "age":40 },
+  { "name": "Sara", "country": "Morocco" },
+  { "name": "Ali", "country": "Saudi Arabia" },
+  { "name": "Fatima", "country": "UAE" },
+  { "name": "Omar", "country": "Jordan" },
+  { "name": "Laila", "country": "Tunisia" },
+  { "name": "Youssef", "country": "Algeria" },
+  { "name": "Amina", "country": "Libya" },
+  { "name": "Hassan", "country": "Iraq" },
+  { "name": "Nadia", "country": "Syria" },
+  { "name": "Khaled", "country": "Lebanon" }
+]
